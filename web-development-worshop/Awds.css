@@ -23,8 +23,7 @@
 }
 
 body{
-    background: var(--dark-bg);
-}
+    background: var(--green-white);
 
 .header{
     color: var(--white);
