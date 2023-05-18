@@ -24,6 +24,7 @@
 
 body{
     background: var(--dark-bg);
+    color: white
 }
 
 .header{
