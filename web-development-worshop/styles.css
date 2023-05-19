@@ -44,6 +44,7 @@ html::-webkit-scrollbar-thumb{
 
 body{
     background: var(--dark-bg);
+    text-align: center;
 }
 
 section{
