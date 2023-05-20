@@ -78,6 +78,15 @@ body{
     text-transform: uppercase;
 }
 
+
+.header .menu{
+    font-size: 2.5rem;
+    color: var(--white);
+    cursor: pointer;
+    text-align: left;
+    display: none;
+}
+
 .u {
     text-decoration: underline;
 }
