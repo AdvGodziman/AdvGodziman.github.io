@@ -33,7 +33,7 @@ body{
     font-size : 0.3rem;
     font-weight: 100;
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     margin-right: 10px;
 }
 
@@ -42,13 +42,13 @@ body{
     top: 0;
     left: 0;
     right: 0;
-    padding: 1rem 9%;
+    padding: 0.5rem 9%;
     z-index: 100;
 }
 
 .header.active{
     background-color: var(--white);
-    padding: 1rem 9%;
+    padding: 0.5rem 9%;
 }
 
 .header.active .navbar a {
