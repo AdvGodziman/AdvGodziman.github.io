@@ -116,26 +116,12 @@ body{
   
   .clients .box-container .box .content {
     margin-top: 2rem;
-  }
-  
-  .clients .box-container .box .content p:nth-child(1) {
     font-size: 1rem;
     color: var(--dark-gray);
     margin-bottom: 2rem;
     line-height: 1.5;
     letter-spacing: 0.1rem;
     text-transform: none;
-  }
-  
-  .clients .box-container .box .content p:nth-child(2) {
-    font-style: italic;
-    font-size: 0.8rem;
-    color: var(--light-gray);
-  }
-  
-  .clients .box-container .box .content p:nth-child(2) span {
-    color: var(--yellow);
-    font-style: normal;
   }
 
 body H1{
