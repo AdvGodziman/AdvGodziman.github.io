@@ -87,34 +87,34 @@ body{
     display: none;
 }
 
-.clients .box-container .box .image {
+.box-container .box .image {
     width: 4rem;
     height: 4rem;
     overflow: hidden;
     margin: 0 auto;
   }
   
-  .clients .box-container .box .image img {
+.box-container .box .image img {
     width: 75%;
     height: 75%;
     object-fit: cover;
     border-radius: 50%;
   }
   
-  .clients .box-container .box {
+.box-container .box {
     text-align: center;
     background-color: var(--light-bg);
     padding: 2.5rem;
     box-shadow: var(--box-shadow);
   }
   
-  .clients .box-container {
+.box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 4rem;
   }
   
-  .clients .box-container .box .content {
+.box-container .box .content {
     margin-top: 2rem;
     font-size: 1rem;
     color: var(--dark-gray);
