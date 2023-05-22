@@ -100,3 +100,7 @@ body{
     object-fit: cover;
     border-radius: 50%;
   }
+
+body h1{
+    text-align: center;
+}
