@@ -81,18 +81,18 @@ SECTION{
 .home .hero-text{
     font-size: 4rem;
     letter-spacing: 4px;
-    color: var(--black);
+    color: var(--white);
     font-weight: 100;
 }
 
 .home .hero-text span{
     font-weight: 1000;
     font-size: 6rem;
-    color: var(--black);
+    color: var(--white);
 }
 
 .home p{
-    background:-webkit-linear-gradient(#0e0e0e, #464848);
+    background:-webkit-linear-gradient(#FFFFFF, #dfebeb);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 2rem;
