@@ -1,0 +1,264 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding:  0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+/*css variables*/
+ :root {
+ --white : #fff;
+ --dark-gray : #ababab;
+ --light-gray : #808080;
+ --dark-bg : #222222;
+ --light-bg : #333333;
+ --yellow : #bac964;
+ --bluegrad : #4960bb;
+ --green-white : #a2c7aa;
+ --box-shadow : 0 0.5rem 1rem rgba(0,0,0,0.1)
+ }
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem
+}
+
+html::-webkit-scrollbar-track{
+    background: var(--light-bg);
+}
+
+html::-webkit-scrollbar-thumb{
+    background: var(--light-bg);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48;
+
+  color: white;
+  align-content: center;
+}
+
+body{
+    background: var(--dark-bg);
+    text-align: center;
+}
+
+section{
+    padding : 5rem 9%;
+}
+
+.header{
+    color : var(--white);
+    font-size : 3rem;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 4rem;
+    margin-right: 10px;
+}
+
+.header span{
+    font-weight: 700;
+}
+
+.home{
+    height: 100vh;
+    background: url(Images/Image.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.et{
+    background: url(Images/Star.jpg);
+    background-size: 600px 700px;
+}
+
+.pgh{
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.home .hero-text{
+    font-size: 4rem;
+    letter-spacing: 4px;
+    color: var(--white);
+    font-weight: 100;
+}
+
+.home .hero-text span{
+    font-weight: 1000;
+    font-size: 6rem;
+    color: var(--white);
+}
+
+.home p{
+    background:-webkit-linear-gradient(#0e0e0e, #464848);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+.para-nasa{
+    color: var(--white);
+    font-size: 2rem;
+    line-height: 4rem;
+}
+
+.h1{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+.na{
+    filter:grayscale(0%);
+}
+
+.hh{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+.ht{
+    font-size: 5rem;
+    color: aliceblue;
+}
+
+.Uni{
+    margin-left: 2rem;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    color: #000000;
+}
+
+.header.active{
+    background-color: #04AA6D;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #2f28f5;
+    overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-decoration:none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #f80a21;
+  }
+
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float: none;
+      display: block;
+      align-items: center;
+    }
+  }
+
+.contact .col-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 6rem;
+  }
+  
+.contact{
+    background-image: url(Images/un.jpeg);
+    background-size: 500px  500px;
+}
+
+  .contact .col-container .col h2 {
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 200;
+    padding-bottom: 5rem;
+  }
+  
+  .contact .col-container .col input,
+  .contact .col-container .col textarea {
+    background-color: lightblue;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin: 0.5rem 0;
+    resize: vertical;
+  }
+  
+  .contact .col-container .col p {
+    font-size: 1.7rem;
+    color: var(--bluegrad);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  
+  .contact .col-container .col span {
+    font-size: 1.5rem;
+    color: var(--white);
+    letter-spacing: 0.1rem;
+  }
+
+  .button {
+    border: none;
+    color: green;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: lightblue;
+  }
+
+.nl{
+    background-image: url(Images/Universe.jpeg);
+    background-size: 500px  700px;
+
+}
